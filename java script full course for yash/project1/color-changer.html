@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color-changer</title>
+    <style>
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        flex-wrap: nowrap;
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        border: solid 2px black;
+        width: 80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div
+        class="box1"
+        style="background-color: hotpink"
+        onclick="pink()"
+        ondblclick="white()"
+      ></div>
+      <div
+        class="box2"
+        style="background-color: red"
+        onclick="red()"
+        ondblclick="white()"
+      ></div>
+      <div
+        class="box3"
+        style="background-color: green"
+        onclick="green()"
+        ondblclick="white()"
+      ></div>
+      <div
+        class="box4"
+        style="background-color: blue"
+        onclick="blue()"
+        ondblclick="white()"
+      ></div>
+    </div>
+    <script>
+      function pink() {
+        const b = (document.body.style.backgroundColor = "hotpink");
+      }
+      function red() {
+        const k = (document.body.style.backgroundColor = "red");
+      }
+      function green() {
+        const bk = (document.body.style.backgroundColor = "green");
+      }
+      function blue() {
+        const j = (document.body.style.backgroundColor = "blue");
+      }
+      function white() {
+        const w = (document.body.style.backgroundColor = "white");
+      }
+    </script>
+  </body>
+</html>

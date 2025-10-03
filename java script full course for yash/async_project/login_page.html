@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <style>
+      body,
+      html {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      body{
+        background:  url("yash_portfolio/HTML5-850x500.jpg") ;
+        background-size: cover;
+      }
+      .container {
+        width: 400px;
+        height: 400px;
+        max-width: 600px;
+        border: 3px solid #949393;
+        border-radius: 20px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+      }
+      .login_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 21px;
+      }
+      input {
+        width: 267px;
+        height: 57px;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-style: bold;
+        
+      }
+      button {
+    height: 45px;
+    width: 101px;
+    background-color: aqua;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+}
+input:focus{
+    
+    border-bottom: 10px solid aqua;
+}
+    </style>
+  </head>
+  <body>
+    <h3>Login</h3>
+    <div class="container">
+      <div class="wrap_login">
+        <div class="login_form">
+          <input type="email" name="" id="" required placeholder="E-mail" />
+          <input
+            type="password"
+            name=""
+            id=""
+            required
+            placeholder="Password"
+          />
+          <button type="submit">Login</button>
+          <!-- <p>Don't have an account? <a href="register_page.html">Register</a></p>
+            <p>Forgot your password? <a href="reset_password_page.html">Reset Password</a></p>   -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

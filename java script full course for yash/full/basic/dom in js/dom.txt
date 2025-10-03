@@ -1,0 +1,14 @@
+what is dom:
+when a web page isloaded the browser creats a document object model(dom)of the page.
+
+dom manupulation:
+
+selecting with id:
+document.getElementById("myid")
+
+selecting with class:
+document.getElementByClassName("myclass")
+
+selecting with tag:
+document.getElementByTagName("p")   
+vidio will be contineu 6:15:00

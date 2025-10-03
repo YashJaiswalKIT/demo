@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FF6347">
+    <title>yash-portfolio</title>
+    
+    <link rel="stylesheet" href="index..css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="contentent">
+          <div class="nav">
+            <nav>
+              <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container" id="Home">
+      <div class="contain">
+        <div class="port_img"></div>
+        <div class="port_detail" id="detail">
+          <h1>Hii, I'm Yash</h1>
+          <h2 id="heading"></h2>
+          <p>
+            Passionate about creating beautiful, interactive web experiences.
+            From beginner projects to advanced applications, I love turning
+            ideas into reality.
+          </p>
+          <div class="btn-box">
+            <a href="#projects" class="btn">My Projects</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="break_div" style="width: 100%; height: 40px"></div>
+    <div class="about" id="About">
+      <div class="about_containt" style="display: flex">
+        <div class="about_detail">
+          <h1>About me!</h1>
+          <h2>From Beginner to Advanced Developer</h2>
+          <p>
+            I started my coding journey 3 years ago with simple HTML/CSS
+            projects. Since then, I've progressed through JavaScript frameworks,
+            backend development, and complex full-stack applications. My
+            portfolio showcases this evolution from foundational to advanced
+            work.
+          </p>
+          <div class="btn-box">
+            <a href="#" class="btn">CV</a>
+            <a href="#" class="btn btn-outline">RESUME</a>
+          </div>
+        </div>
+        <div class="about_image">
+          <img src="frunt_img.jpeg" alt="" height="85px" />
+        </div>
+      </div>
+    </div>
+    <section class="skills" id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box glass" id="html">
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO optimization</p>
+        </div>
+        <div class="skill-box glass" id="css">
+          <h3>CSS3</h3>
+          <p>Animations, responsive design, Flexbox/Grid</p>
+        </div>
+        <div class="skill-box glass" id="js">
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, async programming</p>
+        </div>
+        <div class="skill-box glass" id="react">
+          <h3>React</h3>
+          <p>Hooks, Context API, Redux, Next.js</p>
+        </div>
+        <div class="skill-box glass" id="node">
+          <h3>Node.js</h3>
+          <p>Express, REST APIs, authentication</p>
+        </div>
+        <div class="skill-box glass" id="mongo">
+          <h3>Databases</h3>
+          <p>MongoDB, PostgreSQL, Firebase</p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>My Project</h2>
+
+      <div class="project-container">
+        <div class="project-box glass">
+          <img src="blog.jpg" alt="Personal Blog" />
+          <div class="project-layer">
+            <h4>Personal Blog</h4>
+            <p>My first project - a simple HTML/CSS blog</p>
+          </div>
+        </div>
+        <div class="project-box glass">
+          <img src="calcu.jpg" alt="Calculator" />
+          <div class="project-layer">
+            <h4>JS Calculator</h4>
+            <p>Basic calculator with JavaScript</p>
+          </div>
+        </div>
+        <div class="project-box glass">
+          <img src="weather.jpg" alt="Weather App" />
+          <div class="project-layer">
+            <h4>Weather App</h4>
+            <p>API integration with OpenWeatherMap</p>
+          </div>
+        </div>
+        <div class="project-box glass">
+          <img src="e-com.jpg" alt="E-commerce" />
+          <div class="project-layer">
+            <h4>E-commerce Site</h4>
+            <p>React-based product listing with cart</p>
+          </div>
+        </div>
+        <div class="project-box glass">
+          <img src="chat.jpg" alt="AI Chatbot" />
+          <div class="project-layer">
+            <h4>AI Chatbot</h4>
+            <p>Chatbot with Python</p>
+          </div>
+        </div>
+        <div class="project-box glass">
+          <img src="soc.jpg" alt="Social Media" />
+          <div class="project-layer">
+            <h4>Social Media App</h4>
+            <p>Full-stack MERN application</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Me!</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="tel" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+          <input type="text" placeholder="Your massage" />
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+      
+    </section>
+
+    
+  </body>
+</html>

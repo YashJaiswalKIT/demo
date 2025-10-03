@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">hello world</h1>
+    <button id="btn" onclick="display()">click me</button>
+    <button id="btn2" onclick="display1()">click me</button>
+    <button id ="btn3" onclick="show()">hii</button>
+</body>
+<script>
+function display(){
+    document.body.style.backgroundColor="blue"
+    document.getElementById("heading").innerText="hii i am yash"
+    document.getElementById('btn').style.backgroundColor="aqua"
+}
+function display1(){
+    document.body.style.backgroundColor="red"
+    document.getElementById("heading").innerText="hii i am yash";
+    document.getElementById('btn2').style.backgroundColor="aqua"
+}
+
+</script>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript notes</title>
+    <style>
+        h1{
+            color:black;
+        }
+        p{
+            color: blue;
+            font-size: 22px;
+            border: 3px solid rgb(9, 210, 236);
+            text-align: center;
+        }
+        li{
+            color:blue
+        }
+        h5{
+            color: blue;
+            font-size: 22px;
+            border: 3px solid rgb(9, 210, 236);
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>What is Javascript</h1>
+    <p>JS is a programing language. We use it to give instruction
+        to the computer.
+    </p><br>
+  <center><p style="border: 3px solid rgb(9, 210, 236);">Input(code ==> computer ==> Output</p></center><br>
+  <center><h1>Install VS code</h1></center>
+  <hr>
+  <h1>Chapter 1 ==> Variable Data Types</h1>
+  <br>
+  <h1>our 1st JS code</h1>
+  <p>console.log is used to log(print) a massage to the console.</p>
+  <h3>Syntax:</h3>
+  <p style="border: 3px solid rgb(9, 210, 236);">console.log ("yash jaiswal") </p>
+   <h1>Variables in JS</h1>
+   <p>Variables are containers for data.</p>
+   <h3>syntax using varibles:</h3>
+   <p style="border: 3px solid rgb(9, 210, 236);">fullName="yash jaiswal"; <br>
+    console.log(fullName);</p>
+    <h3>Example program of js</h3>
+    <p style="border: 3px solid rgb(9, 210, 236);">fullName="yash jaiswal";<br>
+    age=18;<br>price-34.4;<br>radius=34;<br>a=null;<br>y=undefined;
+<br>isFollow=true;<br>console.log(//varibles);</p><br>
+<h1>varibles Rules</h1>
+<ul style="color: blue;font-size: 22px;">
+    <li>varibles names are case sensitive; "a" & "A" is different. </li>
+    <li>only letters,dighit underscope( _ ) and $ is allowed.(not even space)</li>
+    <li>only a letter,underscore( _ )or $ should be 1st character.</li>
+    <li>Reserved words cannot be varibles names.</li>
+</ul>
+ <h1>let,const & var</h1>
+ <p>VAR: varibles can be re-declared & updated.A globel scope varibles. </p>
+ <p>Let:varibles can be re-declared but can updated.A block scope variable.</p>
+ <p>Const:varibles can be re-declared or updated.A block scope varible.</p>
+ <h3>syntax using var</h3>
+ <p>var fullName="yash jaiswal";<br>var age=24;
+<br>var totalPrice=1000;<br>console.log(fullName);</p>
+<h3>syntax using Let</h3>
+ <p>Let fullName="yash jaiswal";<br>Let age=24;
+<br>Let totalPrice=1000;<br>console.log(fullName);<br>console.log(age);<br>
+console.log(totalPrice);</p>
+<h3>syntax using Const</h3>
+ <p>const student={<br>fullName:"yash jaiswal",<br>age:24,
+<br>cgpa:9.3,<br>isPass:true, <br> };</p>
+<h1>Data type in js</h1>
+<p>Number,string,boolean,undefined,
+    Null,blight,symbol
+</p>
+<img src="https://i.pinimg.com/736x/7a/75/b2/7a75b2c3fe9030e727d6aa13f5d66577.jpg" alt="">
+<h2>how to find data type in js</h2>
+<p>step-1 go to chrome console <br>
+step-2 write on console <br>
+let fullName=yash;<br>typeof fullName(press enter then find data type)</p>
+<h3>let's practic</h3>
+<p>Ques1:create a const object called "product"to store information shown in the picture.</p>
+<img src="pen.png" alt="">
+<h2>code:</h2>
+<p>
+    const product={<br>
+        title:"ball pen",<br>
+        rating:4,<br>
+        offer:5,<br>
+        price:468,<br>
+    };<br>
+    console.log(product);
+</p>
+<h1>Chapter==>2 <br>
+Operators & conditional statements</h1><br><br>
+<h2>Comments in js=></h2>
+<p>part of code which is not executed.</p><br>
+<p>//This is single line comment</p><br>
+<p>/*this is multi-line <br>
+comment.*/</p>
+<h2>Operators in js</h2>
+<p>used to perform some operation on data</p>
+<h2>Arithmetic operators=></h2>
+<li>+,-,*,/</li>
+<li>Modules(%)</li>
+<li>Exponentiation(**)</li>
+<li>Increment(++)</li>
+<li>Decrement(--)</li>
+<h6>for see the program go on the file of arithmetic .js programm</h6>
+<h2>Assingment operators</h2>
+<li style="color: blue;">=,+=,-=,*=,%=,**=</li>
+<h6>for see the program go on the file of assingment .js programm</h6>
+<h2>Comperison operators</h2>
+<li>Equal to-->  ==</li>
+<li>Equal to &type-->  ===</li>
+<li> not Equal to-->  !=</li>
+<li>not equal to & type-->  !==</li>
+<li> >,>=,<,<== </li>
+<h6>for see the program go on the file of comperison .js,comperesion2.0.js programm</h6>
+<h2>logical operators</h2>
+<li>logical AND  &&</li>
+<li>logical OR  ||</li>
+<li>logical NOT  !</li>
+<h6>for see the program go on the file of logical.js programm</h6>
+<h2>condisonal statements</h2>
+<pre>to implement some condition in the code</pre>
+<h5>if statements</h5>
+<h5>
+    let color; <br>
+    if(mode==="dark_mode"){<br>
+       color="black";<br>
+    }<br>
+    <h6>for see the program go on the file of if.js programm</h6>
+</h5>
+<h5>if-else statements</h5>
+<h5>
+    let color; <br>
+    if(mode==="dark_mode"){<br>
+       color="black";<br>
+    } <br>else{<br>
+        color="white";<br>
+    }
+</h5>
+<h5>else-if statements</h5>
+<h5>
+    if(age<18){<br>
+        console.log("junior");<br>
+    }<br>
+    else if(age>60){<br>
+        console.log("senior");<br>
+    }<br>
+    else{<br>
+        console.log("middle");<br>
+    }
+
+</h5>
+<h2>ternary operators</h2>
+<pre>condition? true output:false output</pre>
+<h5>
+    age>18?"adult:"not adult";
+</h5>
+<h3>
+    alert--> is using for popup maseeges print <br>
+    prompt-->is using for popup masseggess and take input 
+</h3>
+
+<script src="condition_pr_question_2.js"></script>
+</body>
+</html>
